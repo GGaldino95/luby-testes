@@ -1,0 +1,36 @@
+.following-container {
+    background-color: rgba(41,41,41,255);
+    color: white;
+    display: flex;
+    flex-flow: column;
+    height: 896px;
+    margin: 80px;
+    width: 414px;
+}
+
+.following-header {
+    align-items: center;
+    background-color: rgba(31,31,31,255);
+    display: flex;
+    justify-content: flex-start;
+    padding: auto 0;
+    min-height: 8%;
+}
+
+.following-content {
+    flex: 1;
+}
+
+.following-count {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 auto;
+    margin-left: 110px;
+}
+
+.return-icon {
+    color: white;
+    height: auto;
+    text-decoration: unset;
+    width: 45px;
+}

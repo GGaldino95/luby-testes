@@ -1,0 +1,16 @@
+body {
+    align-items: center;
+    background-color: rgb(199,199,199);
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0 auto;
+}
+
+.menu-footer {
+    background-color: white;
+    border-radius: 15px 15px 0 0;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 70px;
+}

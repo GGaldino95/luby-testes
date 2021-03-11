@@ -1,0 +1,80 @@
+.repositories-container {
+    background-color: rgba(41,41,41,255);
+    color: white;
+    display: flex;
+    flex-flow: column;
+    height: 896px;
+    margin: 80px;
+    overflow: auto;
+    scrollbar-width: none;
+    width: 414px;
+    -ms-overflow-style: none;
+}
+
+.repositories-header {
+    align-items: center;
+    background-color: rgba(31,31,31,255);
+    display: flex;
+    justify-content: flex-start;
+    padding: auto 0;
+    min-height: 8%;
+}
+
+.repositories-count {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 auto;
+    margin-left: 110px;
+}
+
+.repositories-content {
+    flex: 1;
+}
+
+.repositories-card {
+    align-items: flex-start;
+    background-color: rgba(41,41,41,255);
+    border-bottom: 1px solid rgba(66,66,66,255);
+    display: flex;
+    flex-flow: column;
+    padding: 15px;
+}
+
+.repositories-name {
+    flex: 1;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.repositories-description {
+    margin: 8px 0;
+}
+
+.starred-icon {
+    color: gold;
+    height: auto;
+    width: 25px;
+}
+
+.unlock-icon {
+    color: green;
+    height: auto;
+    width: 25px;
+}
+
+.lock-icon {
+    color: red;
+    height: auto;
+    width: 25px;
+}
+
+.return-icon {
+    color: white;
+    height: auto;
+    text-decoration: unset;
+    width: 45px;
+}
+
+::-webkit-scrollbar { 
+    display: none;
+}

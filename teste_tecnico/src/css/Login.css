@@ -1,0 +1,47 @@
+.github-icon {
+  color: gold;
+  width:145px;
+  height: auto;
+  margin: 50px;
+}
+
+.login-container {
+  align-items: center;
+  background-color: rgba(41,41,41,255);
+  display: flex;
+  flex-flow: column;
+  height: 896px;
+  justify-content: center;
+  margin: 80px;
+  padding: 15px;
+  width: 414px;
+}
+
+.username-input {
+  border-radius: 15px;
+  border-style: none;
+  font-size: 22px;
+  height: 35px;
+  margin: 5px;
+  padding: 15px;
+  width: 90%;
+}
+
+.login-button {
+  align-items: center;
+  background-color: gold;
+  border-radius: 15px;
+  border-style: none;
+  display: flex;
+  font-size: 22px;
+  font-weight: 700;
+  justify-content: center;
+  margin: 15px;
+  padding: 10px;
+  width: 95%;
+}
+
+.login-icon {
+  width: 45px;
+  height: auto;
+}

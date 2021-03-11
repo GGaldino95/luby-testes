@@ -1,0 +1,114 @@
+.profile-container {
+    background-color: rgba(41,41,41,255);
+    color: white;
+    display: flex;
+    flex-flow: column;
+    height: 896px;
+    margin: 80px;
+    width: 414px;
+}
+
+.profile-header {
+    background-color: rgba(31,31,31,255);
+    align-items: center;
+    display: flex;
+    padding: 25px 15px 75px 15px;
+    justify-content: space-between;
+}
+
+.profile-content {
+    flex: 1;
+}
+
+.profile-avatar {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-avatar img {
+    border: 4px solid white;
+    border-radius: 100%;
+    height: auto;
+    margin: -60px auto 20px auto;
+    width: 115px;
+}
+
+.profile-info {
+    display: flex;
+    flex-flow: column wrap;
+    font-size: 18px;
+    margin: 25px;
+}
+
+.profile-info .user-name {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.profile-links {
+    background-color: rgba(56,56,56,255);
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 25px;
+    margin: 45px 0 25px 0;
+}
+
+.profile-links-card {
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-flow: column;
+    font-size: 20px;
+    text-decoration: unset;
+}
+
+.profile-links-values {
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.profile-bio {
+    display: flex;
+    flex-flow: column wrap;
+    font-size: 20px;
+    margin: 0 25px;
+}
+
+.user-login {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.logout {
+    color: white;
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+    padding-right: 15px;
+    text-decoration: unset;
+}
+
+.logout-icon {
+    color: red;
+    height: auto;
+    padding-left: 10px;
+    width: 23px;
+}
+
+.footer-item {
+    display: flex;
+    flex: 0;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.footer-link {
+    color: black;
+    text-decoration: unset;
+}
+
+.footer-icon {
+    height: auto;
+    width: 32px;
+}
